@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2026-05-07 19:59:58.038,=C:\workdir\delphi\projects\Unit1.pas</Transaction>
-    <Transaction>2026-05-07 20:00:56.035,C:\workdir\delphi\projects\UMain.pas=C:\workdir\delphi\projects\Unit1.pas</Transaction>
-    <Transaction>2026-05-07 20:00:56.035,C:\workdir\delphi\projects\UMain.dfm=C:\workdir\delphi\projects\Unit1.dfm</Transaction>
-    <Transaction>2026-05-07 20:01:08.888,C:\workdir\delphi\projects\NexusERP.dproj=C:\workdir\delphi\projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.888,C:\workdir\delphi\projects\Project1.dproj=C:\workdir\delphi\projects\NexusERP.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.035,C:\workdir\delphi\projects\Unit1.dfm=C:\workdir\delphi\projects\UMain.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.035,C:\workdir\delphi\projects\Unit1.pas=C:\workdir\delphi\projects\UMain.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.038,=C:\workdir\delphi\projects\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
