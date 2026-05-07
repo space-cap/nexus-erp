@@ -1,4 +1,4 @@
-unit UFrameUserMgr;
+﻿unit UFrameUserMgr;
 
 interface
 

@@ -3,11 +3,6 @@ object FrameUserMgr: TFrameUserMgr
   Top = 0
   Width = 1366
   Height = 573
-  Font.Charset = DEFAULT_CHARSET
-  Font.Color = clWindowText
-  Font.Height = -12
-  Font.Name = 'Segoe UI'
-  Font.Style = []
   TabOrder = 0
   object pnlTitle: TPanel
     Left = 0
@@ -21,8 +16,8 @@ object FrameUserMgr: TFrameUserMgr
     object lblTitle: TLabel
       Left = 12
       Top = 8
-      Width = 200
-      Height = 20
+      Width = 46
+      Height = 19
       Caption = 'lblTitle'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWindowText
@@ -41,12 +36,29 @@ object FrameUserMgr: TFrameUserMgr
     BevelOuter = bvNone
     Color = clWhite
     TabOrder = 1
+    DesignSize = (
+      1366
+      44)
     object lblDept: TLabel
       Left = 12
       Top = 14
-      Width = 40
+      Width = 38
       Height = 15
       Caption = 'lblDept'
+    end
+    object lblName: TLabel
+      Left = 192
+      Top = 14
+      Width = 45
+      Height = 15
+      Caption = 'lblName'
+    end
+    object lblStatus: TLabel
+      Left = 372
+      Top = 14
+      Width = 45
+      Height = 15
+      Caption = 'lblStatus'
     end
     object edtDept: TEdit
       Left = 56
@@ -55,26 +67,12 @@ object FrameUserMgr: TFrameUserMgr
       Height = 23
       TabOrder = 0
     end
-    object lblName: TLabel
-      Left = 192
-      Top = 14
-      Width = 40
-      Height = 15
-      Caption = 'lblName'
-    end
     object edtName: TEdit
       Left = 236
       Top = 11
       Width = 120
       Height = 23
       TabOrder = 1
-    end
-    object lblStatus: TLabel
-      Left = 372
-      Top = 14
-      Width = 50
-      Height = 15
-      Caption = 'lblStatus'
     end
     object edtStatus: TEdit
       Left = 426
