@@ -24,11 +24,14 @@ object Form1: TForm1
     Color = 6240798
     ParentBackground = False
     TabOrder = 0
+    DesignSize = (
+      1366
+      32)
     object lblAppTitle: TLabel
       Left = 12
       Top = 7
-      Width = 280
-      Height = 18
+      Width = 232
+      Height = 19
       Caption = 'NEXUS ERP 2026 - [Ribbon Edition]'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clWhite
@@ -38,9 +41,9 @@ object Form1: TForm1
       ParentFont = False
     end
     object lblUserInfo: TLabel
-      Left = 1050
+      Left = 1293
       Top = 9
-      Width = 300
+      Width = 57
       Height = 15
       Alignment = taRightJustify
       Anchors = [akTop, akRight]
@@ -58,6 +61,7 @@ object Form1: TForm1
     Top = 32
     Width = 1366
     Height = 115
+    ActivePage = tsFile
     Align = alTop
     TabOrder = 1
     object tsFile: TTabSheet
@@ -75,8 +79,8 @@ object Form1: TForm1
         Top = 4
         Width = 80
         Height = 70
-        Flat = True
         Caption = 'sbUserMgr'
+        Flat = True
         OnClick = sbUserMgrClick
       end
       object sbPartnerMgr: TSpeedButton
@@ -84,8 +88,8 @@ object Form1: TForm1
         Top = 4
         Width = 80
         Height = 70
-        Flat = True
         Caption = 'sbPartnerMgr'
+        Flat = True
         OnClick = sbPartnerMgrClick
       end
       object sbItemMgr: TSpeedButton
@@ -93,15 +97,15 @@ object Form1: TForm1
         Top = 4
         Width = 80
         Height = 70
-        Flat = True
         Caption = 'sbItemMgr'
+        Flat = True
         OnClick = sbItemMgrClick
       end
       object lblMasterGrp: TLabel
         Left = 8
         Top = 78
-        Width = 252
-        Height = 13
+        Width = 55
+        Height = 12
         Alignment = taCenter
         Caption = 'lblMasterGrp'
         Font.Charset = DEFAULT_CHARSET
@@ -134,6 +138,7 @@ object Form1: TForm1
     Top = 147
     Width = 1366
     Height = 573
+    ActivePage = tsMainDash
     Align = alClient
     TabOrder = 2
     object tsMainDash: TTabSheet
