@@ -2,7 +2,8 @@ program NexusERP;
 
 uses
   Vcl.Forms,
-  UMain in 'UMain.pas' {Form1};
+  UMain in 'UMain.pas' {Form1},
+  UFrameUserMgr in 'UFrameUserMgr.pas' {FrameUserMgr: TFrame};
 
 {$R *.res}
 
