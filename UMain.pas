@@ -53,8 +53,8 @@ uses
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   // ── 타이틀바 ──────────────────────────────────────
-  Caption                := 'NEXUS ERP 2026 - [Ribbon Edition]';
-  lblAppTitle.Caption    := 'NEXUS ERP 2026 - [Ribbon Edition]';
+  Caption                := 'NEXUS ERP 2026 - [Ribbon Edition 1]';
+  lblAppTitle.Caption    := 'NEXUS ERP 2026 - [Ribbon Edition 2]';
   lblUserInfo.Caption    := '사용자: 홍길동 (영업부)';
   pnlTitleBar.Color      := RGB(30, 58, 95);
 
