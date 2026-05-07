@@ -1,4 +1,4 @@
-unit UMain;
+ï»¿unit UMain;
 
 interface
 
@@ -35,18 +35,18 @@ procedure TForm1.btnUserMgrClick(Sender: TObject);
 var
   NewTab: TTabSheet;
 begin
-  // 1. ÇÏ´Ü WorkspaceControl¿¡ »õ·Î¿î ÅÇ »ı¼º
+  // 1. í•˜ë‹¨ WorkspaceControlì— ìƒˆë¡œìš´ íƒ­ ìƒì„±
   NewTab := TTabSheet.Create(WorkspaceControl);
 
-  // 2. ¼Ò¼Ó ÁöÁ¤ ¹× ÅÇ Á¦¸ñ ¼³Á¤
+  // 2. ì†Œì† ì§€ì • ë° íƒ­ ì œëª© ì„¤ì •
   NewTab.PageControl := WorkspaceControl;
-  NewTab.Caption := '»ç¿ëÀÚ °ü¸®';
+  NewTab.Caption := 'ì‚¬ìš©ì ê´€ë¦¬';
 
-  // 3. ¹æ±İ ¸¸µç ÅÇÀ» È°¼ºÈ­ (È­¸é ¾ÕÀ¸·Î °¡Á®¿À±â)
+  // 3. ë°©ê¸ˆ ë§Œë“  íƒ­ì„ í™œì„±í™” (í™”ë©´ ì•ìœ¼ë¡œ ê°€ì ¸ì˜¤ê¸°)
   WorkspaceControl.ActivePage := NewTab;
 
-  // (Âü°í) ³ªÁß¿¡ ¿©±â¿¡ Frame_UserList ÇÁ·¹ÀÓÀ»
-  // »ı¼ºÇØ¼­ NewTab À§¿¡ ¿Ã·ÁÁÖ´Â ÄÚµå°¡ Ãß°¡µË´Ï´Ù.
+  // (ì°¸ê³ ) ë‚˜ì¤‘ì— ì—¬ê¸°ì— Frame_UserList í”„ë ˆì„ì„
+  // ìƒì„±í•´ì„œ NewTab ìœ„ì— ì˜¬ë ¤ì£¼ëŠ” ì½”ë“œê°€ ì¶”ê°€ë©ë‹ˆë‹¤.
 end;
 
 end.
